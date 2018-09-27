@@ -1,4 +1,5 @@
-.controller.custom{img/base.png);
+.controller.custom{
+	background: url(img/base.png);
 	height: 96px;
 	width: 275px:
 }
