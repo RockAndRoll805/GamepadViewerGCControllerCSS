@@ -1,10 +1,9 @@
-.controller.custom{
-	background: url(https://i.imgur.com/8sOwbGE.png);
+.controller.custom{img/base.png);
 	height: 96px;
 	width: 275px:
 }
 .custom.disconnected{
-	background: url(https://i.imgur.com/8sOwbGE.png);
+	background: url(img/base.png);
 }
 .custom.disconnected div{
 	display: none;
