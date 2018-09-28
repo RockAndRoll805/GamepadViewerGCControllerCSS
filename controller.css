@@ -59,7 +59,7 @@
 /* .custom .button{} */
 /* .custom .button.pressed */
 .custom .a{
-	
+	background: url(img/button-a.png)
 }
 
 .custom .sticks{
@@ -82,6 +82,8 @@
 	background: url(img/stick.png) no-repeat;
     height: 40px;
     width: 39px;
+	top: 17px;
+	left: 19px;
 }
 .custom .stick.right{
 	background: url(img/stick-c.png) no-repeat;
