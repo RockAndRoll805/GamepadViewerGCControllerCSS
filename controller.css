@@ -14,7 +14,7 @@
 .custom.triggers{
 	width: 135px;
 	height: 10px;
-	/*position: absolute;*/
+	position: absolute;
 	left: 10px;
 	top: 2px;
 }
@@ -37,7 +37,7 @@
 	opacity: 0;
 }
 .custom .bumpers{
-	/*position: absolute;*/
+	position: absolute;
 	width: 20px;
 	height: 20px;
 	left: 232px;
@@ -49,7 +49,7 @@
 /* custom start button */
 
 .custom .abxy{
-	/*position: absolute;*/
+	position: absolute;
 	width: 119px;
 	height: 82px;
 	top: 7px;
@@ -62,24 +62,24 @@
 }
 
 .custom .sticks{
-    /*position: absolute;*/
+    position: absolute;
     width: 144px;
     height: 76px;
     top: 13px;
     left: 3px;
 }
 .custom .stick{
-    /*position: absolute;*/
+    position: absolute;
     background: url(img/stick.png);
 	background-repeat: no-repeat;
     height: 40px;
     width: 39px;
 }
 .custom .stick.pressed.left{
-    background-position-x: 0px;
+    background-position-x: -200px;
 }
 .custom .stick.pressed.right{
-    background-position-x: 0px;
+    background-position-x: -200px;
 }
 .custom .stick.left{
     top: 0;
