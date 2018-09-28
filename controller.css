@@ -10,6 +10,7 @@
 .custom.disconnected div{
 	display: none;
 }
+
 .custom.triggers{
 	width: 135px;
 	height: 10px;
@@ -20,5 +21,70 @@
 .custom.trigger{
 	width:61px;
 	height:10px;
-	background: url(img/trigger.png)
+	background: url(img/trigger.png);
+}
+.custom .trigger.left{
+	float: left;
+}
+.custom .trigger.right{
+	float: right;
+}
+
+.custom .bumper{
+	width: 20px;
+	height: 20px;
+	background: url(img/button-z.png);
+	opacity: 0;
+}
+.custom .bumpers{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 232px;
+	top: 10px;
+}
+.custom .bumper.pressed{
+	opacity: 1;
+}
+/* custom start button */
+
+.custom .abxy{
+	position: absolute;
+	width: 119px;
+	height: 82px;
+	top: 7px;
+	left: 151px;
+}
+/* .custom .button{} */
+/* .custom .button.pressed */
+.custom .a{
+	
+}
+
+.custom .sticks{
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
+}
+.custom .stick{
+    position: absolute;
+	background: url(img/stick.png);
+    height:105px;
+    width: 105px;
+}
+.custom .stick.pressed.left{
+    background-position-x: -106px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -211px;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
