@@ -63,12 +63,13 @@
 	position: absolute;
 	width: 119px;
 	height: 80px;
-	background: url(img/button-face.png);
+	/* background: url(img/button-face.png); */
 }
 .custom .button.pressed{
 	background-position-y: -64px;
 }
 .custom .a{
+	background: url(img/button-a.png)
 	width: 58px;
 	height: 58px;
 	top: 24px;
