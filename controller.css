@@ -62,10 +62,10 @@
 	background: url(img/button-start.png);
 	width: 19px;
 	height: 19px;
+	opacity: 0;
 }
 .custom .start.pressed{
-	background-position-y: -21px;
-    margin-top: 2px;
+	opacity: 1;
 }
 
 .custom .abxy{
@@ -90,6 +90,10 @@
 	height: 58px;
 	top: 24px;
 	left: 34px;
+	opacity: 0;
+}
+.custom .a.pressed{
+	opacity: 1;
 }
 .custom .b{
 	width: 32px;
