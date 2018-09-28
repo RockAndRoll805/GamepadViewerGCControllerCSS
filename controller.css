@@ -5,7 +5,7 @@
 	width: 275px;
 }
 .custom.disconnected{
-	background: url(img/base.png);
+	background: url(img/base-hi-visibility.png);
 }
 .custom.disconnected div{
 	display: none;
