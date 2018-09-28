@@ -63,32 +63,28 @@
 
 .custom .sticks{
     position: absolute;
-    width: 144px;
-    height: 76px;
-    top: 13px;
-    left: 3px;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
 }
 .custom .stick{
     position: absolute;
-	background: url(img/stick.png);
-    height: 40px;
-    width: 39px;
+    background: url(img/stick.png);
+    height: 105px;
+    width: 105px;
 }
-
 .custom .stick.pressed.left{
-    background-position-x: 0px;
+    background-position-x: -106px;
 }
 .custom .stick.pressed.right{
-    background-position-x: px;
+    background-position-x: -211px;
 }
-
 .custom .stick.left{
     top: 0;
     left: 0;
 }
-/*
 .custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-*/
