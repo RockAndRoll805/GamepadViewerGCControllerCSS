@@ -76,18 +76,19 @@
 }
 
 .custom .stick.pressed.left{
-    background-position-x: -25px;
+    background-position-x: 0px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -75px;
+    background-position-x: px;
 }
 
 .custom .stick.left{
     top: 0;
     left: 0;
 }
-
+/*
 .custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
+*/
