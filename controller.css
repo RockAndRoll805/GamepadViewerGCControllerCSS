@@ -22,13 +22,16 @@
 	width:10px;
 	height:61px;
 	background: url(img/trigger-inverted-rotate.png);
-	transform: rotate(90deg);
 	opacity: 0;
 }
 .custom .trigger.left{
+	transform-origin: 0% 100%;
+	transform: rotate(90deg);
 	float: left;
 }
 .custom .trigger.right{
+	transform-origin: 0% 100%;
+	transform: rotate(270deg);
 	float: right;
 }
 
