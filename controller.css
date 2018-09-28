@@ -63,10 +63,10 @@
 
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 144px;
+    height: 76px;
+    top: 13px;
+    left: 3px;
 }
 .custom .stick{
     position: absolute;
@@ -76,16 +76,16 @@
     width: 39px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: 0px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-position-x: 0px;
 }
 .custom .stick.left{
     top: 0;
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: calc(100% - 75px);
+    left: calc(100% - 75px);
 }
