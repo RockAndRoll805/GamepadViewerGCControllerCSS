@@ -35,7 +35,7 @@
 	width: 20px;
 	height: 20px;
 	background: url(img/button-z.png);
-	opacity: 1;
+	opacity: 0;
 }
 .custom .bumpers{
 	position: absolute;
@@ -45,7 +45,7 @@
 	top: 10px;
 }
 .custom .bumper.pressed{
-	opacity: 0;
+	opacity: 1;
 }
 .custom .bumper.right{
 	float: right;
@@ -59,16 +59,22 @@
 	top: 7px;
 	left: 151px;
 }
-/* .custom .button{} */
-/* .custom .button.pressed */
+.custom .button{
+	position: absolute;
+	width: 119px;
+	height: 80px;
+	background: url(img/button-face.png);
+}
+.custom .button.pressed{
+	background-position
+}
 .custom .a{
 	background: url(img/button-a.png);
 	width: 58px;
 	height: 58px;
+	top: 24px;
+	left: 34px;
 	opacity: 1;
-}
-.custom .a.pressed{
-	opacity: 0;
 }
 
 .custom .sticks{
