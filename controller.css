@@ -85,8 +85,8 @@
 }
 .custom .stick.right{
 	background: url(img/stick-c.png) no-repeat;
-    top: calc(100% - 75px);
-    left: calc(100% - 75px);
+    top: 29px;
+    left: 52px;
 	height: 23px;
     width: 23px;
 }
