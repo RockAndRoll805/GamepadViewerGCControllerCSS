@@ -51,6 +51,22 @@
 	float: right;
 }
 /* custom start button */
+.custom .arrows{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	top: 31px;
+	left: 158px;
+}
+.custom .start{
+	background: url(img/button-start.png);
+	width: 19px;
+	height: 19px;
+}
+.custom .start.pressed{
+	background-position-y: -21px;
+    margin-top: 2px;
+}
 
 .custom .abxy{
 	position: absolute;
@@ -66,10 +82,10 @@
 	/* background: url(img/button-face.png); */
 }
 .custom .button.pressed{
-	background-position-y: -64px;
+
 }
 .custom .a{
-	background: url(img/button-a.png)
+	background: url(img/button-a.png);
 	width: 58px;
 	height: 58px;
 	top: 24px;
@@ -79,7 +95,6 @@
 	width: 32px;
 	height: 32px;
 	top: 50px;
-	left 0px;
 }
 
 .custom .sticks{
