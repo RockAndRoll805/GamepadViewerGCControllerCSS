@@ -1,11 +1,11 @@
 .controller.custom{
 	/* https://i.imgur.com/8sOwbGE.png */
-	background: url(img/base-hi-visibility.png);
+	background: url(img/base-inverted.png);
 	height: 96px;
 	width: 275px;
 }
 .custom.disconnected{
-	background: url(img/base-hi-visibility.png);
+	background: url(img/base-inverted.png);
 }
 .custom.disconnected div{
 	display: none;
@@ -19,15 +19,19 @@
 	top: 2px;
 }
 .custom .trigger{
-	width:61px;
-	height:10px;
-	background: url(img/trigger.png);
+	width:10px;
+	height:61px;
+	background: url(img/trigger-inverted-rotate.png);
 	opacity: 0;
 }
 .custom .trigger.left{
+	-webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
 	float: left;
 }
 .custom .trigger.right{
+	-webkit-transform: rotateY(270deg);
+    transform: rotateY(270deg);
 	float: right;
 }
 
@@ -106,7 +110,7 @@
 	opacity: 1;
 }
 .custom .x{
-	background: url(img/button-x.png);
+	background: url(img/button-x-inverted.png);
 	width: 26px;
 	height: 48px;
 	top: 24px;
@@ -117,7 +121,7 @@
 	opacity: 1;
 }
 .custom .y{
-	background: url(img/button-y.png);
+	background: url(img/button-y-inverted.png);
 	width: 45px;
 	height: 25px;
 	left: 33px;
