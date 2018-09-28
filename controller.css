@@ -62,14 +62,12 @@
 }
 
 .custom .sticks{
-    position: absolute;
     width: 144px;
     height: 76px;
     top: 13px;
     left: 3px;
 }
 .custom .stick{
-    position: absolute;
     background: url(img/stick.png);
 	background-repeat: no-repeat;
     height: 40px;
