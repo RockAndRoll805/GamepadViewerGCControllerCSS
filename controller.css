@@ -76,10 +76,10 @@
 }
 
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: -25px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-position-x: -75px;
 }
 
 .custom .stick.left{
