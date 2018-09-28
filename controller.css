@@ -59,7 +59,7 @@
 /* .custom .button{} */
 /* .custom .button.pressed */
 .custom .a{
-	background: url(img/button-a.png)
+	background: url(img/button-a.png);
 }
 
 .custom .sticks{
@@ -73,10 +73,8 @@
     position: absolute;
 }
 .custom .stick.pressed.left{
-    background-position-x: 0px;
 }
 .custom .stick.pressed.right{
-    background-position-x: 0px;
 }
 .custom .stick.left{
 	background: url(img/stick.png) no-repeat;
