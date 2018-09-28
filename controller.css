@@ -24,9 +24,6 @@
 	background: url(img/trigger.png);
 	opacity: 0;
 }
-.custom .trigger.pressed{
-	opacity: 1;
-}
 .custom .trigger.left{
 	float: left;
 }
@@ -61,13 +58,13 @@
 	top: 31px;
 	left: 158px;
 }
-.custom .start{
+.custom .back, .custom .start{
 	background: url(img/button-start.png);
 	width: 19px;
 	height: 19px;
 	opacity: 1;
 }
-.custom .start.pressed{
+.custom .back.pressed, .custom .start.pressed{
 	opacity: 0;
 }
 
