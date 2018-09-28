@@ -1,11 +1,11 @@
 .controller.custom{
 	/* https://i.imgur.com/8sOwbGE.png */
-	background: url(img/base-inverted.png);
+	background: url(img/base-hi-visibility.png);
 	height: 96px;
 	width: 275px;
 }
 .custom.disconnected{
-	background: url(img/base-inverted.png);
+	background: url(img/base-hi-visibility.png);
 }
 .custom.disconnected div{
 	display: none;
@@ -50,7 +50,8 @@
 .custom .bumper.right{
 	float: right;
 }
-/* custom start button */
+
+/* arrows is start and back button? */
 .custom .arrows{
 	position: absolute;
 	width: 19px;
@@ -79,7 +80,6 @@
 	position: absolute;
 	width: 119px;
 	height: 80px;
-	/* background: url(img/button-face.png); */
 }
 .custom .button.pressed{
 
@@ -106,7 +106,7 @@
 	opacity: 1;
 }
 .custom .x{
-	background: url(img/button-x-inverted.png);
+	background: url(img/button-x.png);
 	width: 26px;
 	height: 48px;
 	top: 24px;
@@ -117,7 +117,7 @@
 	opacity: 1;
 }
 .custom .y{
-	background: url(img/button-y-inverted.png);
+	background: url(img/button-y.png);
 	width: 45px;
 	height: 25px;
 	left: 33px;
