@@ -11,14 +11,14 @@
 	display: none;
 }
 
-.custom.triggers{
+.custom .triggers{
 	width: 135px;
-	height: 10px;
+	height: 11px;
 	position: absolute;
 	left: 10px;
 	top: 2px;
 }
-.custom.trigger{
+.custom .trigger{
 	width:61px;
 	height:10px;
 	background: url(img/trigger.png);
