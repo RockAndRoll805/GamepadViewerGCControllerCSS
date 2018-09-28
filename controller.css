@@ -73,18 +73,18 @@
     position: absolute;
 }
 .custom .stick.pressed.left{
-    background-position-x: -200px;
+    background-position-x: 0px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -200px;
+    background-position-x: 0px;
 }
 .custom .stick.left{
-	background: url(img/stick.png) center no-repeat;
+	background: url(img/stick.png) no-repeat;
     height: 40px;
     width: 39px;
 }
 .custom .stick.right{
-	background: url(img/stick-c.png) center no-repeat;
+	background: url(img/stick-c.png) no-repeat;
     top: calc(100% - 75px);
     left: calc(100% - 75px);
 	height: 23px;
