@@ -22,6 +22,7 @@
 	width:61px;
 	height:10px;
 	background: url(img/trigger.png);
+	opacity: 0;
 }
 .custom .trigger.left{
 	float: left;
@@ -70,10 +71,6 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(img/stick.png);
-	background-repeat: no-repeat;
-    height: 40px;
-    width: 39px;
 }
 .custom .stick.pressed.left{
     background-position-x: -200px;
@@ -82,10 +79,14 @@
     background-position-x: -200px;
 }
 .custom .stick.left{
-    top: 0;
-    left: 0;
+	background: url(img/stick.png) center no-repeat;
+    height: 40px;
+    width: 39px;
 }
 .custom .stick.right{
+	background: url(img/stick.png) center no-repeat;
     top: calc(100% - 75px);
     left: calc(100% - 75px);
+	height: 23px;
+    width: 23px;
 }
