@@ -1,0 +1,263 @@
+/*BEGIN GameCube Controller Styling*/
+.controller.gc {
+    background: url(img/base.png) no-repeat;
+	height: 96px;
+	width: 275px:
+}
+
+.gc.disconnected {
+    background: url(img/base.png) no-repeat;
+}
+
+.gc.disconnected div {
+    display: none;
+}
+
+.gc .triggers {
+    width: 135px;
+	height: 10px;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+
+.gc .trigger {
+    width:61px;
+	height:10px;
+	background: url(img/trigger.png);
+    opacity: 0;
+}
+
+.gc .trigger.left {
+    float: left;
+}
+
+.gc .trigger.right {
+    float: right;
+}
+
+.gc .bumper {
+    width: 20px;
+	height: 20px;
+    background: url(img/button-z.png) no-repeat;
+    background-position: -358px 0px;
+    opacity: 0;
+}
+
+.gc .bumpers {
+    position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 232px;
+	top: 10px;
+}
+
+.gc .bumper.pressed {
+    opacity: 1;
+}
+
+.gc .bumper.left {
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
+    float: left;
+    display: none;
+}
+
+.gc .bumper.right {
+    float: right;
+}
+
+/*Not needed, but I like keeping them here for posterity*/
+/*.gc .quadrant{
+position: absolute;
+background: url(gc-assets/player-n.svgz);
+height: 17px;
+width: 111px;
+top: 140px;
+left: 240px;
+}
+.gc .p0{
+background-position: 0 -6px;
+}
+.gc .p1{
+background-position: 0 -28px;
+}
+.gc .p2{
+background-position: 0 -49px;
+}
+.gc .p3{
+background-position: 0 -70px;
+}*/
+
+.gc .arrows {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 324px;
+    left: 465px;
+}
+
+.gc .back, .gc .start {
+    width: 43px;
+    height: 43px;
+    background: #E7E7E7;
+    border-radius: 100%;
+    border: solid 4.5px rgba(0, 0, 0, .65);
+    background-clip: content-box;
+    opacity: 0;
+}
+
+.gc .back.pressed, .gc .start.pressed {
+    opacity: 1;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.gc .back {
+    display: none;
+}
+
+.gc .start {
+    float: right;
+}
+
+.gc .abxy {
+    position: absolute;
+	width: 119px;
+	height: 82px;
+	top: 7px;
+	left: 151px;
+}
+
+.gc .button {
+    position: absolute;
+    background: url(gc-assets/button-z.png);
+    opacity: 0;
+}
+
+.gc .button.pressed {
+    opacity: 1;
+}
+
+.gc .a {
+    background-position: 0 0;
+    width: 114px;
+    height: 114px;
+    bottom: 35px;
+    left: 91px;
+}
+
+.gc .b {
+    width: 71px;
+    height: 71px;
+    background-position: -116px 0;
+    bottom: 0px;
+    left: 1px;
+}
+
+.gc .x {
+    width: 66px;
+    height: 103px;
+    background-position: -292px 0;
+    top: 65px;
+    right: 0px;
+}
+
+.gc .y {
+    width: 103px;
+    height: 66px;
+    background-position: -189px 0;
+    left: 67px;
+    top: 2px;
+}
+
+.gc .sticks {
+    position: absolute;
+    width: 144px;
+    height: 76px;
+    top: 13px;
+    left: 3px;
+}
+
+.gc .stick {
+    position: absolute;
+}
+
+.gc .stick.left {
+    top: 24px;
+    left: 23px;
+    background: url(img/stick.png) center no-repeat;
+    height: 40px;
+    width: 39px;
+}
+
+.gc .stick.right {
+    top: calc(100% - 10px);
+    left: calc(100% - 10px);
+    background: url(img/stick.png) center no-repeat;
+    height: 40px;
+    width: 39px;
+}
+/*
+.gc .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
+.gc .dpad {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 497px;
+    left: 263px;
+}
+
+.gc .face {
+    background: url(gc-assets/dpad.svgz) no-repeat;
+    position: absolute;
+    opacity: 0;
+}
+
+.gc .face.up, .gc .face.down {
+    width: 44px;
+    height: 65px;
+}
+
+.gc .face.left, .gc .face.right {
+    width: 65px;
+    height: 44px;
+}
+
+.gc .face.up {
+    left: 42px;
+    top: 0;
+    background-position: 0px 0px;
+}
+
+.gc .face.down {
+    left: 42px;
+    bottom: 0;
+    background-position: -46px 0;
+}
+
+.gc .face.left {
+    top: 43px;
+    left: 0;
+    background-position: -93px 0;
+}
+
+.gc .face.right {
+    top: 43px;
+    right: 0px;
+    background-position: -160px 0;
+}
+
+.gc .face.pressed {
+    opacity: 1;
+}
+*/
+
+/*END GameCube Controller Styling*/
