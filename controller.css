@@ -62,10 +62,10 @@
 	background: url(img/button-start.png);
 	width: 19px;
 	height: 19px;
-	opacity: 0;
+	opacity: 1;
 }
 .custom .start.pressed{
-	opacity: 1;
+	opacity: 0;
 }
 
 .custom .abxy{
@@ -96,9 +96,35 @@
 	opacity: 1;
 }
 .custom .b{
+	background: url(img/button-b.png);
 	width: 32px;
 	height: 32px;
 	top: 50px;
+	opacity: 0;
+}
+.custom .b.pressed{
+	opacity: 1;
+}
+.custom .x{
+	background: url(img/button-x.png);
+	width: 26px;
+	height: 48px;
+	top: 14px;
+	left: 93px;
+	opacity: 0;
+}
+.custom .x.pressed{
+	opacity: 1;
+}
+.custom .y{
+	background: url(img/button-y.png);
+	width: 45px;
+	height: 25px;
+	left: 33px;
+	opacity: 0;
+}
+.custom .y.pressed{
+	opacity: 1;
 }
 
 .custom .sticks{
