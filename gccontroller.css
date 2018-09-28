@@ -6,7 +6,7 @@
 }
 
 .gc.disconnected {
-    background: url(gc-assets/disconnected.svgz) no-repeat;
+    background: url(img/base.png) no-repeat;
 }
 
 .gc.disconnected div {
