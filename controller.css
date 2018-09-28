@@ -22,6 +22,9 @@
 	width:61px;
 	height:10px;
 	background: url(img/trigger.png);
+	opacity: 0;
+}
+.custom .trigger.pressed{
 	opacity: 1;
 }
 .custom .trigger.left{
@@ -109,7 +112,7 @@
 	background: url(img/button-x.png);
 	width: 26px;
 	height: 48px;
-	top: 14px;
+	top: 24px;
 	left: 93px;
 	opacity: 0;
 }
