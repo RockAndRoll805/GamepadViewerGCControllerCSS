@@ -71,6 +71,7 @@
 .custom .stick{
     position: absolute;
     background: url(img/stick.png);
+	background-repeat: no-repeat;
     height: 40px;
     width: 39px;
 }
