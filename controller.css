@@ -22,7 +22,7 @@
 	width:61px;
 	height:10px;
 	background: url(img/trigger.png);
-	opacity: 0;
+	opacity: 1;
 }
 .custom .trigger.left{
 	float: left;
@@ -35,7 +35,7 @@
 	width: 20px;
 	height: 20px;
 	background: url(img/button-z.png);
-	opacity: 0;
+	opacity: 1;
 }
 .custom .bumpers{
 	position: absolute;
@@ -45,7 +45,10 @@
 	top: 10px;
 }
 .custom .bumper.pressed{
-	opacity: 1;
+	opacity: 0;
+}
+.custom .bumper.right{
+	float: right;
 }
 /* custom start button */
 
