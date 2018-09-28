@@ -71,8 +71,8 @@
 .custom .stick{
     position: absolute;
     background: url(img/stick.png);
-    height: 105px;
-    width: 105px;
+    height: 40px;
+    width: 39px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
