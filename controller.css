@@ -72,21 +72,18 @@
 .custom .stick{
     position: absolute;
 }
-.custom .stick.pressed.left{
-}
-.custom .stick.pressed.right{
-}
+
 .custom .stick.left{
 	background: url(img/stick.png) no-repeat;
     height: 40px;
     width: 39px;
-	top: 17px;
+	top: 18px;
 	left: 19px;
 }
 .custom .stick.right{
 	background: url(img/stick-c.png) no-repeat;
-    top: 29px;
-    left: 52px;
+    top: 31px;
+    left: 85px;
 	height: 23px;
     width: 23px;
 }
